@@ -39,14 +39,16 @@ env/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
 
-# Data files (large files)
-*.csv
-*.xlsx
-*.xls
-!Data/raw/.gitkeep
-!Data/processed/.gitkeep
+# Data files (large files) - commented out to allow project data
+# *.csv
+# *.xlsx
+# *.xls
+
+# Keep data and notebook files for this project
+!Data/raw/*
+!Data/processed/*
+!Data Cleaning/*.ipynb
 
 # Power BI
 *.pbix.tmp

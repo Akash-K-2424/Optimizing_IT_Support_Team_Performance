@@ -1,0 +1,11 @@
+CustomerID,First_Name,Last_Name,Phone_Number,Address,Paying Customer,Do_Not_Contact
+1001,Frodo,Baggins,1235455421,"123 Shire Lane, Shire",Y,N
+1005,Jon,Snow,8766783469,123 Dragons Road,Y,N
+1008,Sherlock,Holmes,8766783469,98 Clue Drive,N,N
+1010,Peter,Parker,1235455421,"25th Main Street, New York",Y,N
+1013,Don,Draper,1235432345,2039 Main Street,Y,N
+1014,Leslie,Knope,8766783469,343 City Parkway,Y,N
+1015,Toby,Flenderson,3047622467,214 HR Avenue,N,N
+1016,Ron,Weasley,1235455421,2395 Hogwarts Avenue,N,N
+1017,Michael ,Scott,1236439775,"121 Paper Avenue, Pennsylvania",Y,N
+1020,Anakin,Skywalker,8766783469,"910 Tatooine Road, Tatooine",Y,N
