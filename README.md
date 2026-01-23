@@ -21,7 +21,6 @@ IT support teams in organizations often struggle with managing high volumes of s
 
 This project addresses these challenges by building a comprehensive analytics system that examines IT support ticket data to uncover meaningful patterns and trends. The primary objectives include analyzing ticket volume patterns across different priorities, categories, and geographic regions, measuring and optimizing resolution times to improve service delivery, identifying clusters of similar issues to enable proactive problem management, evaluating team performance across various dimensions, and providing data-backed recommendations for workflow and resource improvements.
 
-The analysis aims to answer several critical business questions: What are the most common types of issues being reported? How does resolution time vary across different priority levels and countries? Are there patterns in ticket submissions that can help with resource planning? Which areas of the support operation need the most attention? How can the team reduce average resolution time while maintaining quality?
 
 ---
 
