@@ -260,13 +260,13 @@ Optimizing_IT_Support_Team_Performance/
 |       |-- processed_data.csv         # Cleaned and processed data
 |
 |-- Power BI/
-|   |-- (Power BI dashboard files)     # Dashboard files to be added
+|   |-- Call_list.pbix                 # Power BI dashboard file
 |
 |-- Screenshots/
-|   |-- Screenshot_1.png               # Dashboard screenshot 1
-|   |-- Screenshot_2.png               # Dashboard screenshot 2
-|   |-- Screenshot_3.png               # Dashboard screenshot 3
-|   |-- Screenshot_4.png               # Dashboard screenshot 4
+|   |-- Drop_column.png                # Screenshot of dropping columns
+|   |-- Droping_duplicates.png         # Screenshot of removing duplicates
+|   |-- Removing_unwanted_spaces.png   # Screenshot of text cleaning
+|   |-- Uploading_Data.png             # Screenshot of data upload
 |
 |-- .gitignore                         # Git ignore file
 |-- LICENSE                            # MIT License
