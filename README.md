@@ -1,4 +1,4 @@
-# Supportlytics - Optimizing IT Support Team Performance
+# Optimizing IT Support Team Performance
 
 A data-driven analytics project designed to analyze IT support ticket data, identify performance trends, and provide actionable insights for improving service efficiency and reducing resolution times.
 
