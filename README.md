@@ -194,71 +194,53 @@ Based on the analysis of priority and category combinations, consider implementi
 
 ## Tools Used
 
-This section provides a detailed description of every tool utilized throughout the project, from data processing to visualization and documentation.
-
 ### Python
-
-Python serves as the primary programming language for this project. It is a high-level, interpreted language known for its readability and versatility. In this project, Python handles all data cleaning, preprocessing, transformation, and analysis tasks. The language was chosen because of its extensive ecosystem of data science libraries and its widespread adoption in analytics workflows. Python scripts automate repetitive data processing tasks and ensure reproducibility of the analysis.
+Primary programming language for data cleaning, preprocessing, transformation, and analysis tasks.
 
 ### Pandas
-
-Pandas is a Python library that provides data structures and data analysis tools. The core data structure used is the DataFrame, which represents tabular data similar to a spreadsheet or SQL table. In this project, Pandas is used to read data from Excel and CSV files, handle missing values by filling or removing them, remove duplicate records from the dataset, filter rows based on specific conditions, transform columns by stripping whitespace and replacing values, create new calculated columns such as Resolution Time, aggregate data for summary statistics, and export cleaned data to new files. Pandas makes it straightforward to perform complex data manipulations with just a few lines of code.
+Python library for data manipulation and analysis using DataFrames to read, clean, transform, and export data.
 
 ### NumPy
-
-NumPy is the fundamental package for numerical computing in Python. It provides support for large multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. In this project, NumPy supports calculations performed by Pandas, handles numerical data types efficiently, and provides mathematical functions for statistical analysis. NumPy arrays are faster and more memory-efficient than standard Python lists, which is important when working with larger datasets.
+Fundamental package for numerical computing, supporting efficient array operations and mathematical functions.
 
 ### Matplotlib
-
-Matplotlib is a comprehensive plotting library for creating static, animated, and interactive visualizations in Python. It provides a MATLAB-like interface for creating figures and plots. In this project, Matplotlib is used for creating exploratory visualizations during the data analysis phase, generating line charts to show trends over time, producing bar charts for comparing categories, and creating histograms to understand data distributions. Matplotlib offers fine-grained control over every aspect of a figure, making it possible to customize visualizations to meet specific requirements.
+Plotting library for creating static visualizations including line charts, bar charts, and histograms.
 
 ### Seaborn
-
-Seaborn is a statistical data visualization library built on top of Matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. Seaborn is particularly useful in this project for creating heatmaps to visualize correlations and patterns, generating distribution plots to understand data spread, producing categorical plots for comparing groups, and applying consistent styling across visualizations. Seaborn simplifies the creation of complex visualizations and produces publication-quality graphics with minimal code.
+Statistical visualization library built on Matplotlib for creating heatmaps, distribution plots, and categorical plots.
 
 ### Plotly
-
-Plotly is an interactive graphing library that creates interactive, web-based visualizations. Unlike Matplotlib and Seaborn which produce static images, Plotly charts allow users to hover over data points for details, zoom in and out, and pan across the visualization. This interactivity is valuable for exploratory analysis and for creating visualizations that stakeholders can interact with directly.
+Interactive graphing library for creating web-based visualizations with hover, zoom, and pan capabilities.
 
 ### Microsoft Power BI Desktop
-
-Power BI Desktop is a business analytics tool developed by Microsoft for creating interactive data visualizations and business intelligence reports. It is the primary dashboarding platform for this project. Power BI connects to the cleaned dataset and provides a drag-and-drop interface for building visualizations. Key capabilities used include data modeling to establish relationships between tables, DAX formulas for creating calculated measures and columns, a variety of visualization types including cards, bar charts, line charts, pie charts, maps, and tables, slicers and filters for interactive data exploration, and the ability to publish and share reports with stakeholders. Power BI was chosen for its ease of use, strong integration with other Microsoft tools, and professional-quality output suitable for business presentations.
+Business analytics tool for creating interactive dashboards and reports, serving as the primary visualization platform.
 
 ### Microsoft Excel
-
-Excel is a spreadsheet application used for data storage and initial data exploration. In the early stages of the project, Excel was used to open and inspect the raw data files, perform quick data validation checks, create simple pivot tables for preliminary analysis, and verify data cleaning results. Excel provides a familiar interface that makes it easy to quickly understand the structure and content of data files.
+Spreadsheet application used for initial data exploration, validation, and preliminary analysis.
 
 ### Jupyter Notebook
-
-Jupyter Notebook is an open-source web application that allows creation and sharing of documents containing live code, equations, visualizations, and narrative text. The data cleaning and analysis code for this project is developed in Jupyter Notebook. This environment allows running code in cells and seeing results immediately, documenting the analysis process with markdown text, displaying visualizations inline with the code that generated them, and iterating quickly during exploratory analysis. Jupyter Notebook files serve as both executable code and documentation, making it easy for others to understand and reproduce the analysis.
+Web application for developing and documenting data cleaning code with live code execution and inline visualizations.
 
 ### Visual Studio Code
-
-Visual Studio Code is a lightweight but powerful source code editor. It serves as the primary development environment for this project. Key features utilized include Python extension for syntax highlighting and debugging, integrated terminal for running commands, Git integration for version control, Jupyter extension for working with notebook files, and file explorer for navigating project structure. Visual Studio Code provides a flexible environment that supports multiple programming languages and integrates well with other development tools.
+Primary development environment with Python extension, integrated terminal, and Git integration.
 
 ### Git
-
-Git is a distributed version control system that tracks changes in source code during development. In this project, Git tracks all changes made to code and documentation, maintains a history of the project evolution, enables reverting to previous versions if needed, and facilitates collaboration by managing different versions. Git commands are run from the terminal to stage changes, commit them with descriptive messages, and push them to a remote repository.
+Distributed version control system for tracking code changes and maintaining project history.
 
 ### GitHub
-
-GitHub is a web-based platform that hosts Git repositories and provides collaboration features. The project repository is hosted on GitHub, which provides a central location for all project files, README documentation visible to visitors, issue tracking for managing tasks and bugs, and public access for others to view and contribute. GitHub serves as both a backup of the project and a way to share the work with others.
+Web platform hosting the project repository, enabling collaboration and public access to project files.
 
 ### CSV File Format
-
-CSV stands for Comma-Separated Values and is a plain text file format for storing tabular data. CSV files are used in this project for storing raw data extracted from source systems, saving cleaned and processed data for use in Power BI, and transferring data between different tools. The CSV format is universal and can be opened by virtually any data analysis tool.
+Plain text format for storing and transferring tabular data between tools.
 
 ### Markdown
-
-Markdown is a lightweight markup language for creating formatted text using a plain text editor. This README file is written in Markdown. The format is used for project documentation, inline comments in Jupyter Notebooks, and creating structured documents with headers, lists, and links. Markdown is easy to write and read in its raw form, and renders nicely in environments like GitHub.
+Lightweight markup language used for project documentation and README files.
 
 ### pip
-
-pip is the package installer for Python. It is used to install and manage Python libraries needed for the project. Running pip install followed by a package name downloads the package from the Python Package Index and installs it. The requirements.txt file lists all packages needed for the project, making it easy for others to install dependencies.
+Python package installer for managing project dependencies listed in requirements.txt.
 
 ### Virtual Environment
-
-A virtual environment is an isolated Python environment that allows installing packages without affecting the system-wide Python installation. The project uses a virtual environment to ensure all team members use the same package versions, prevent conflicts between packages required by different projects, and make the project reproducible on different machines. The venv module built into Python creates and manages virtual environments.
+Isolated Python environment ensuring consistent package versions and project reproducibility.
 
 ---
 
